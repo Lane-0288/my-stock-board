@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Stock Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="stock-container">
+        <h1 id="company-name"></h1>
+        <p class="ticker-price-container">
+            <span id="stock-ticker" class="detail"></span>: 
+            <span id="current-price" class="price"></span> 
+            (<span id="price-change"></span>)
+        </p>
+        <div class="details-grid">
+            <div class="detail-item">
+                <strong>Open:</strong> <span id="open-price" class="detail"></span>
+            </div>
+            <div class="detail-item">
+                <strong>High:</strong> <span id="high-price" class="detail"></span>
+            </div>
+            <div class="detail-item">
+                <strong>Low:</strong> <span id="low-price" class="detail"></span>
+            </div>
+            <div class="detail-item">
+                <strong>Prev. Close:</strong> <span id="previous-close" class="detail"></span>
+            </div>
+            </div>
+        <p id="last-updated"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
