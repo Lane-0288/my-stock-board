@@ -24,7 +24,7 @@ body {
 h1 {
     font-size: 3.5em; /* Larger company name */
     margin-bottom: 15px;
-    color: #000000; /* Light blue accent */
+    color: #e0e0e0; /* Light blue accent */
     animation: slideInFromTop 0.8s ease-out;
 }
 
