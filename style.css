@@ -54,7 +54,7 @@ h1 {
 .detail {
     font-size: 0.9em;
     font-weight: normal;
-    color: #A9A9A9; /* Purple accent for details */
+    color: #ffffff; /* Purple accent for details */
 }
 
 .details-grid {
@@ -67,7 +67,7 @@ h1 {
 }
 
 .detail-item {
-    background-color: #FFFFFF;
+    background-color: #333333;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
